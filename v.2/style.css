@@ -1,6 +1,5 @@
 /* reset */
 * {
- margin: 0px;
  padding: 1px;
  box-sizing: border-box;
 }
@@ -15,18 +14,12 @@
 }
 
 /* container centrato*/
-.container-c{
+.container{
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 /* conteiner footer  */
-.containerf1{
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
 
 .container-f1-1{
   display: flex;
@@ -85,15 +78,18 @@ p{
 .back1st{
   background-color: #00008b;
   height: 500px;
+  padding: 50px 0;
 }
 
 .back2nd, .back4th {
   height: 600px;
+  padding: 50px 0;
 }
 
 .back3rd, .back5th{
   background-color: #d3d3d3;
   height: 600px;
+  padding: 50px 0;
 }
 
 .back5th{
@@ -105,11 +101,14 @@ p{
   background-color: #ee82ee;
   height: 400px;
   width: 900px;
+  margin: auto;
 }
 
 .sez2, .sez3, .sez4{
   height: 500px;
   width: 1200px;
+  background-color: grey;
+  margin: auto;
 }
 
 .ret-w{
@@ -131,6 +130,7 @@ p{
   height: 900px;
   width: 1200px;
   background-color: #228b22;
+  margin: auto;
 }
 
 /* footer  */

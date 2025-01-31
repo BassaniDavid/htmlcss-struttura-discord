@@ -33,3 +33,16 @@ header div{
 .link{
   flex-grow: 3;
 }
+
+p{
+  line-height: 35px;
+  vertical-align: middle;
+  text-align: center;
+}
+.logo {
+  text-align: left;
+}
+
+.login{
+  text-align: right;
+}

@@ -1,6 +1,35 @@
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 1px;
     box-sizing: border-box;
   }
+
+
+.container{
+  display: flex;
+}
+
+header{
+  background-color: #add8e6;
+  height: 80px;
+}
+
+.intestazione{
+  background-color: #daa520;
+  height: 45px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 15px;
+}
+.bordo{
+  border: 2px dashed black;
+}
+
+header div{
+  flex-grow: 1;
+}
+
+.link{
+  flex-grow: 3;
+}

@@ -8,11 +8,17 @@
 
 .container{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header{
   background-color: #add8e6;
   height: 80px;
+}
+
+header div{
+  flex-grow: 1;
 }
 
 .intestazione{
@@ -22,16 +28,9 @@ header{
   margin: auto;
   margin-top: 15px;
 }
+
 .bordo{
   border: 2px dashed black;
-}
-
-header div{
-  flex-grow: 1;
-}
-
-.link{
-  flex-grow: 3;
 }
 
 p{
@@ -39,10 +38,50 @@ p{
   vertical-align: middle;
   text-align: center;
 }
+
+.link{
+  flex-grow: 3;
+}
+
 .logo {
   text-align: left;
 }
 
 .login{
   text-align: right;
+}
+
+
+/* colori */
+
+.blu{
+  height: 500px;
+  background-color: #00008b;
+}
+
+.rosa1{
+  height: 400px;
+  width: 900px;
+  background-color: #ee82ee;
+}
+
+.bianco{
+  height: 600px;
+}
+
+.bicolor1{
+  height: 500px;
+  width: 1200px;
+}
+
+.azzurro{
+  background-color: #1e90ff;
+  flex-grow: 2;
+  align-self: stretch;
+}
+
+.rosa2{
+  background-color: #ffc0cb;
+  flex-grow: 1;
+  align-self: stretch;
 }

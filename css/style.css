@@ -33,6 +33,11 @@ header div{
   border: 2px dashed black;
 }
 
+.bordobianco{
+  border: 2px dashed rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
 p{
   line-height: 35px;
   vertical-align: middle;
@@ -74,6 +79,11 @@ p{
   width: 1200px;
 }
 
+.bicolor2{
+  height: 570px;
+  width: 1200px;
+}
+
 .azzurro{
   background-color: #1e90ff;
   flex-grow: 2;
@@ -93,4 +103,74 @@ p{
 
 .ordineinvertito{
   order: 1;
+}
+
+.verde{
+  height: 900px;
+  width: 1200px;
+  background-color: #228b22;
+}
+
+.grigio2{
+  height: 1000px;
+  background-color: #d3d3d3;
+}
+
+.container2{
+  display: flex;
+}
+
+.container3{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.grigio3{
+  height: 630px;
+  background-color: #23272a;
+}
+
+.azzurro2{
+  background-color: #20b2aa;
+  flex-grow: 2;
+  align-self: stretch;
+}
+
+.rosa3{
+  background-color: #f08080;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+hr{
+  color: white;
+}
+
+.grigio4{
+  height: 110px;
+  background-color: #23272a;
+}
+
+.acqua{
+  height: 80px;
+  width: 1200px;
+  background-color: #7fffd4;
+}
+
+.container4{
+  display: flex;
+  align-items: end;
+  justify-content:center; 
+}
+
+.container5{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.rosa4 {
+  background-color: #ffb6c1;
+  font-size: 25px;
 }

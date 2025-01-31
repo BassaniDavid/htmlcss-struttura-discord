@@ -1,0 +1,176 @@
+/* reset */
+* {
+ margin: 0px;
+ padding: 1px;
+ box-sizing: border-box;
+}
+
+/* bordi tratteggiati */
+.bordo{
+  border: 2px dashed black;
+}
+.bordo2{
+  border: 2px dashed rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+/* container centrato*/
+.container-c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* conteiner footer  */
+.containerf1{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.container-f1-1{
+  display: flex;
+}
+
+.container-f2{
+  display: flex;
+  align-items: end;
+  justify-content:center; 
+}
+.container-f2-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+/* header */
+header{
+  background-color: #add8e6;
+  height: 80px;
+}
+
+.intestazione{
+  background-color: #daa520;
+  height: 45px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+header div{
+  flex-grow: 1;
+}
+
+p{
+  line-height: 35px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.link{
+  flex-grow: 3;
+}
+
+.logo {
+  text-align: left;
+}
+
+.login{
+  text-align: right;
+}
+
+
+/* main: colori e altezze background delle sezioni */
+
+.back1st{
+  background-color: #00008b;
+  height: 500px;
+}
+
+.back2nd, .back4th {
+  height: 600px;
+}
+
+.back3rd, .back5th{
+  background-color: #d3d3d3;
+  height: 600px;
+}
+
+.back5th{
+  height: 1000px;
+}
+
+/* main: colori, altezze e proprietà dei container e contenuti*/
+.sez1{
+  background-color: #ee82ee;
+  height: 400px;
+  width: 900px;
+}
+
+.sez2, .sez3, .sez4{
+  height: 500px;
+  width: 1200px;
+}
+
+.ret-w{
+  background-color: #1e90ff;
+  flex-grow: 3;
+  align-self: stretch;
+}
+.ret-s{
+  background-color: #ffc0cb;
+  flex-grow: 2;
+  align-self: stretch;
+}
+
+.sez3 .ordineinvertito{
+  order: 1;
+}
+
+.sez5{
+  height: 900px;
+  width: 1200px;
+  background-color: #228b22;
+}
+
+/* footer  */
+.backf1, .backf2{
+  background-color: #23272a;
+  height: 630px;
+}
+
+.sezf1{
+  height: 570px;
+  width: 1200px;
+}
+
+.sezf1-1{
+  background-color: #f08080;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+.sezf1-2{
+  background-color: #20b2aa;
+  flex-grow: 2;
+  align-self: stretch;
+}
+
+hr{
+  color: white;
+}
+
+.backf2{
+  height: 110px;
+}
+
+.sezf2{
+  height: 80px;
+  width: 1200px;
+  background-color: #7fffd4;
+}
+
+.sezf2-1, .sezf2-2 {
+  background-color: #ffb6c1;
+  font-size: 25px;
+}

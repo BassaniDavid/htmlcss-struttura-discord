@@ -19,10 +19,15 @@
   display: flex;
 }
 
-.container2{
+.containerfooter{
   display: flex;
   align-items: center;
   justify-content: space-between; 
+}
+
+/* centratura con margin auto */
+.intestazione, .sez1, .sez2, .sez3, .sez4, .sez5, .sezf1, .sezf2 {
+  margin: auto;
 }
 
 /* header */
@@ -36,7 +41,6 @@ header{
   background-color: #daa520;
   height: 45px;
   width: 1200px;
-  margin: auto;
   margin-top: 15px;
   align-items: center;
 }
@@ -54,6 +58,7 @@ ul{
 li{
  padding:0 5px;
 }
+
 .link{
   flex-grow: 3;
 }
@@ -62,24 +67,19 @@ li{
   text-align: right;
 }
 
-
 /* main: colori e altezze background delle sezioni */
+main > div{
+  padding: 50px 0;
+  height: 600px;
+}
 
 .back1st{
   background-color: #00008b;
   height: 500px;
-  padding: 50px 0;
-}
-
-.back2nd, .back4th {
-  height: 600px;
-  padding: 50px 0;
 }
 
 .back3rd, .back5th{
   background-color: #d3d3d3;
-  height: 600px;
-  padding: 50px 0;
 }
 
 .back5th{
@@ -91,14 +91,12 @@ li{
   background-color: #ee82ee;
   height: 400px;
   width: 900px;
-  margin: auto;
 }
 
 .sez2, .sez3, .sez4{
+  background-color: grey;
   height: 500px;
   width: 1200px;
-  background-color: grey;
-  margin: auto;
 }
 
 .ret-w{
@@ -117,15 +115,13 @@ li{
 }
 
 .sez5{
+  background-color: #228b22;
   height: 900px;
   width: 1200px;
-  background-color: #228b22;
-  margin: auto;
 }
 
-/* footer  */
-
-.backf1, .backf2{
+/******   footer  ********/
+footer > div{
   background-color: #23272a;
   height: 630px;
 }
@@ -134,7 +130,6 @@ li{
   height: 570px;
   width: 1200px;
   padding-top: 10px;
-  margin: auto;
 }
 
 .sezf1-1{
@@ -161,7 +156,6 @@ hr{
   height: 80px;
   width: 1200px;
   background-color: #7fffd4;
-  margin: auto;
 }
 
 .sezf2-1, .sezf2-2 {

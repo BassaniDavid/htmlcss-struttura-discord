@@ -26,7 +26,7 @@
 }
 
 /* centratura con margin auto */
-.intestazione, .sez1, .sez2, .sez3, .sez4, .sez5, .sezf1, .sezf2 {
+.jumbo, .sez1, .sez2, .sez3, .sez4, .sez5, .sezf1, .sezf2 {
   margin: auto;
 }
 
@@ -34,14 +34,12 @@
 header{
   background-color: #add8e6;
   height: 80px;
-  padding-top: 1px;
+  padding: 15px 0;
 }
 
-.intestazione{
+.jumbo{
   background-color: #daa520;
-  height: 45px;
   width: 1200px;
-  margin-top: 15px;
   align-items: center;
 }
 
@@ -68,7 +66,7 @@ li{
 }
 
 /* main: colori e altezze background delle sezioni */
-main > div{
+main > section{
   padding: 50px 0;
   height: 600px;
 }
@@ -99,29 +97,35 @@ main > div{
   width: 1200px;
 }
 
+/* rettangolo grande */
 .ret-w{
   background-color: #1e90ff;
   flex-grow: 3;
   align-self: stretch;
 }
+
+/* rettangolo piccolo */
 .ret-s{
   background-color: #ffc0cb;
   flex-grow: 2;
   align-self: stretch;
 }
 
+/* rettangolo invertito */
 .sez3 .ordineinvertito{
   order: 1;
 }
 
+/* ultuma sezione main */
 .sez5{
   background-color: #228b22;
   height: 900px;
   width: 1200px;
 }
 
-/******   footer  ********/
-footer > div{
+
+/******   footer colori, altezze e proprietà dei container e contenuti ********/
+footer > section{
   background-color: #23272a;
   height: 630px;
 }
